@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "/src/index.css";
+
+@layer components {
+
+    /* ========================================= Below that is for desktop/laptop Start ================================ */
+
+    /* This is for all header titel text for */
+    .headerfont{
+        @apply border-b-4 rounded-lg inline p-1
+    }
+
+    /* Project section components start  */
+
+    .article {
+        @apply border-4 border-white rounded-xl relative hover:bg-black cursor-pointer hover:border-x-blue-800 bg-opacity-20 transition hover:opacity-100 duration-700 hover:scale-110 shadow-2xl shadow-black
+    }
+
+    .article img {
+        @apply w-full h-full rounded-xl
+    }
+
+    .article div {
+        @apply w-[175px] absolute top-0 left-1 invisible text-[15px]
+    }
+
+
+    /* Project section components end */
+
+    /* Skill section components start */
+
+    .skill_border {
+        @apply w-[500px] h-[25px] border-2 border-red-400 shadow-md shadow-black
+    }
+
+    .Skill_b_b {
+        @apply w-[0%] h-full bg-gradient-to-b from-cyan-100 via-teal-200 to-blue-300
+    }
+
+    .logo_hover {
+        @apply text-[30px] cursor-pointer hover:scale-150 text-white
+    }
+
+    .skill_main_div {
+        @apply flex space-x-20 mt-[30px] translate-x-[15rem]
+    }
+
+    /* Skill section components end */
+
+    /* Certificate Section Start */
+
+    .Certificate article {
+        @apply w-full h-full
+    }
+
+    .Certificate input {
+        @apply invisible
+    }
+
+    .Certificate label {
+        @apply flex justify-center translate-y-[300px] text-[30px] cursor-pointer text-white hover:text-black
+    }
+
+    .Certificate img {
+        @apply h-[300px] flex translate-y-[-55px] border-2 border-black rounded-xl
+    }
+
+    .Certificate img {
+        visibility: hidden;
+        transition: visibility 0.3s ease-in-out;
+        animation: card 0.5s infinite;
+    }
+
+    .Certificate img:hover {
+        border-color: red;
+    }
+
+    /* Show the image when the checkbox is checked */
+    .Certificate input[type="checkbox"]:checked~img {
+        visibility: visible;
+        animation: card 1s;
+    }
+
+    @keyframes card {
+        0% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            transform: rotateY(0deg);
+        }
+
+    }
+
+    /* Certificate Section End */
+
+    /* Contact Section Start */
+
+    .Contact_container_form_div {
+        @apply mt-[20px] text-[20px]
+    }
+
+    .Contact_container_form_input {
+        @apply rounded border-2 border-black hover:border-red-700
+    }
+
+    /* Contact Section End */
+
+    /* ========================================= Below that is for desktop/laptop End =================================== */
+   
+    
+}
