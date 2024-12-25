@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Documentation for Kalpesh Chudasama Portfolio Website :
 -----------------------------------------------------
 This is my HTML structure of a portfolio website for Kalpesh Chudasama, showcasing my skills, projects, certifications, and contact details. The website is designed using HTML, Tailwind CSS, and Font Awesome for styling and icons.
