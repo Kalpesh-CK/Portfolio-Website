@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Documentation for Kalpesh Chudasama Portfolio Website :
 -----------------------------------------------------
 This is my HTML structure of a portfolio website for Kalpesh Chudasama, showcasing my skills, projects, certifications, and contact details. The website is designed using HTML, Tailwind CSS, and Font Awesome for styling and icons.
@@ -196,3 +197,7 @@ The hover effects on the header menu were not functioning as expected on smaller
 3) Project Hover Effects:
 
 The hover effects on project cards (showing descriptions) weren’t consistent. Some descriptions didn’t appear on hover, and the transition time felt delayed.
+=======
+# Portfolio-Website
+I created portfolio website as my project given by Internshala Training program 
+>>>>>>> bfb35bf42e2d9ec8c4eb0e1a782ed21c38a40d6c
